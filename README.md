@@ -12,7 +12,7 @@ sudo yum install -y python3
 git clone https://github.com/SQLConjuror/Flask-Submit-Form-Using-MySQL.git
 ```
 
-* cd to the app
+* cd to the App directory
 ```
 cd Flask-Submit-Form-Using-MySQL
 ```
