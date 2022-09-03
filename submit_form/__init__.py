@@ -10,7 +10,7 @@ app.config['SECRET_KEY'] = os.urandom(24)
 Bootstrap(app)
 
 _config = {
-    'user': '<your_db_user',
+    'user': '<your_db_user>',
     'password': '<db_user_password>',
     'host': '<db_host>',
     'database': '<database>',
