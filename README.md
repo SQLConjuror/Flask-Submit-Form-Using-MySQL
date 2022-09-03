@@ -33,6 +33,14 @@ source venv/bin/activate
 pip3 install flask
 ```
 
+* Open the app in your browser
+http://localhost:5000/
+
+or
+
+http://<server_ip>:5000/
+
+
 * Install required packages
 ```
 pip3 install -r submit_form/requirements.txt
