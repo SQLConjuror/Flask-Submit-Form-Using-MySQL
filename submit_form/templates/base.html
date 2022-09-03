@@ -1,0 +1,29 @@
+<!--Make this base.html inherit bootstrap's base.html-->
+
+{% extends 'bootstrap/base.html' %}
+{% block title %}
+Submit Form
+{% endblock %}
+
+{% block navbar %}
+{% include '_navbar.html' %}
+{% endblock %}
+
+{% block content %}
+<!-- every message which is being flashed goes into the queue called "get_flashed_messages()"-->
+{% with messages = get_flashed_messages(with_categories=true) %}
+{% if messages %}
+<ul>
+    {% for category, messages in messages %}
+    <li class="alert alert-{{ category }}">{{ messages }}</li>
+    {% endfor %}
+    {% endif %}
+    {% endwith %}
+</ul>
+
+
+{% block subcontent %}
+<!-- this block was named body, but there is a tab called body that already exists as part of boostrap base.html -->
+<!--this will be the block of our html-->
+{% endblock %}
+{% endblock %}

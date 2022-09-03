@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block subcontent %}
+
+<div class="container">
+    <table class="table table-bordered table-hover table-sm">
+        <thead class="thead-dark* app.loy">
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        {% for employee in employees %}
+        <tbody>
+            <tr>
+                <td>{{employee[0]}}</td>
+                <td>{{employee[1]}}</td>
+            </tr>
+        </tbody>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
