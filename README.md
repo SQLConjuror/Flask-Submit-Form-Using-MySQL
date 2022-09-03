@@ -39,6 +39,17 @@ pip3 install flask
 pip3 install -r submit_form/requirements.txt
 ``` 
 
+* Configure your database settings in the __init__.py file
+```
+_config = {
+    'user': '<your_db_user',
+    'password': '<db_user_password>',
+    'host': '<db_host>',
+    'database': '<database>',
+    'raise_on_warnings': True,
+    }
+```
+
 * Run App
 ```
 python3 run.py
