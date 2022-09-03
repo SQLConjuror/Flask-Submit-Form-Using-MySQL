@@ -39,7 +39,7 @@ pip3 install flask
 pip3 install -r submit_form/requirements.txt
 ``` 
 
-* Configure your database settings in the __init__.py file
+* Configure your database settings in the "__init__.py" file
 ```
 _config = {
     'user': '<your_db_user',
