@@ -46,8 +46,11 @@ python3 run.py
 
 
 * Open the app in your browser
+```
 http://localhost:5000/
-
+```
 or
 
+```
 http://<server_ip>:5000/
+```
